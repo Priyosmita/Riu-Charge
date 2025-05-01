@@ -5,6 +5,8 @@ const page = () => {
   return (
     <>
     <Header/>
+
+    {/* first section */}
     </>
   )
 }
