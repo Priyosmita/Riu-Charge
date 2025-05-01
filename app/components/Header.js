@@ -9,15 +9,27 @@ const Header = () => {
 
                 <div className='flex flex-row text-black gap-14 text-md'>
                     <span className='hover:text-[#F16122] transform duration-300 cursor-pointer'>Home</span>
-                    
-                    <span className='flex flex-row gap-2 hover:text-[#F16122] transform duration-300 cursor-pointer'>Consumer Payments <GrDown className='pt-1 text-xl'/></span>
-                    
+
+                    <span className='cursor-pointer relative group'>
+                        <span className='flex flex-row gap-2 hover:text-[#F16122] transform duration-300'>Consumer Payments <GrDown className='pt-1 text-xl' /></span>
+                        {/* Dropdown box */}
+                        <div className="absolute top-8 group-hover:block bg-white shadow-xl p-4 rounded-xl z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-500">
+                            options
+                        </div>
+                    </span>
+
                     <span className='hover:text-[#F16122] transform duration-300 cursor-pointer'>Credit Score</span>
-                    
-                    <span className='flex flex-row gap-2 hover:text-[#F16122] transform duration-300 cursor-pointer'>Business <GrDown className='pt-1 text-xl'/></span>
-                    
+
+                    <span className='cursor-pointer relative group'>
+                        <span className='flex flex-row gap-2 hover:text-[#F16122] transform duration-300'>Business <GrDown className='pt-1 text-xl' /></span>
+                        {/* Dropdown box */}
+                        <div className="absolute top-8 group-hover:block bg-white shadow-xl p-4 rounded-xl z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-500">
+                            options
+                        </div>
+                    </span>
+
                     <span className='hover:text-[#F16122] transform duration-300 cursor-pointer'>About</span>
-                    
+
                     <span className='hover:text-[#F16122] transform duration-300 cursor-pointer'>Career</span>
                 </div>
 
