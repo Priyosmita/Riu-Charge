@@ -9,21 +9,21 @@ const Footer = () => {
                     
                     {/* col 1 */}
                     <div className='flex flex-col space-y-9'>
-                        <div className='bg-[#d10f0f]'>
+                        <div className='bg-[#d10f0f] inline-block'>
                             Riucharge logo
                         </div>
                         <Link href="">
-                            <div>
+                            <div className='inline-block'>
                                 About Us
                             </div>
                         </Link>
                         <Link href="">
-                            <div>
+                            <div className='inline-block'>
                                 Privacy Policy
                             </div>
                         </Link>
                         <Link href="">
-                            <div>
+                            <div className='inline-block'>
                                 Terms and Conditions
                             </div>
                         </Link>
