@@ -7,12 +7,18 @@ const page = () => {
       <Header />
 
       {/* first section */}
-      <div className='bg-[#EBF2FB] h-auto w-full flex justify-center'>
-      <img
+      <div className='flex justify-center relative'>
+        <img
           src="/home pic.jpg"
-          alt="d2h logo"
+          alt="smiling woman"
           className="h-auto w-full"
         />
+
+        <div className="absolute w-full h-full flex items-center justify-center">
+          <p className="text-red text-3xl font-bold bg-black bg-opacity-50 px-4 py-2 rounded">
+            Hello, I am on top!
+          </p>
+        </div>
       </div>
 
       {/* second section */}
