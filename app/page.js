@@ -31,10 +31,23 @@ const page = () => {
         />
 
 <img
-          src="https://upload.wikimedia.org/wikipedia/commons/f/f4/D2h_logo_Brand.png?20181112043612"
+          src="https://m.media-amazon.com/images/I/31BDVWh-9ZL.png"
           alt="tata play binge logo"
+          className="h-26 w-auto"
+        />
+
+<img
+          src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/airtel-logo-01-freelogovectors.net_.png"
+          alt="airtel logo"
           className="h-14 w-auto"
         />
+
+<img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Vodafone_Idea_logo.svg/80px-Vodafone_Idea_logo.svg.png"
+          alt="vi logo"
+          className="h-14 w-auto"
+        />
+
       </div>
     </>
   )
