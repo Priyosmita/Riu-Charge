@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 const page = () => {
   return (
@@ -14,10 +15,19 @@ const page = () => {
           className="h-auto w-full"
         />
 
-        <div className="absolute w-full h-full flex items-center justify-center">
-          <p className="text-red text-3xl font-bold bg-black bg-opacity-50 px-4 py-2 rounded">
-            Hello, I am on top!
-          </p>
+        <div className="absolute right-0 flex items-center justify-center">
+          <div className='flex flex-col'>
+            {/* first 2 */}
+            <div className='flex flex-row'>
+              <div>mobile recharge</div>
+              <div>dth recharge</div>
+            </div>
+            {/* next 2 */}
+            <div className='flex flex-row'>
+            <div>big payments</div>
+            <div>big sale deals</div>
+            </div>
+          </div>          
         </div>
       </div>
 
@@ -66,6 +76,8 @@ const page = () => {
         />
 
       </div>
+
+      <Footer/>
     </>
   )
 }
