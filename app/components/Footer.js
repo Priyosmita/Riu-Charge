@@ -6,6 +6,8 @@ const Footer = () => {
         <>
             <div className='w-full h-auto bg-[#2e3136]'>
                 <div className='flex flex-row justify-between pt-10 pl-36 pr-36 pb-10'>
+                    
+                    {/* col 1 */}
                     <div className='flex flex-col space-y-9'>
                         <div className='bg-[#d10f0f]'>
                             Riucharge logo
@@ -25,13 +27,14 @@ const Footer = () => {
                                 Terms and Conditions
                             </div>
                         </Link>
-
                     </div>
 
+                    {/*  col 2 */}
                     <div className='text-amber-300'>
                         services
                     </div>
 
+                    {/* col 3 */}
                     <div className='text-amber-300'>
                         social
                     </div>
