@@ -18,8 +18,8 @@ const FirstSectionHome = () => {
             {/* 4 equal-sized blocks */}
             <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl'>mobile recharge</div>
             <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl'>dth recharge</div>
-            <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>big payments</div>
-            <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>big sale deals</div>
+            <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl'>big payments</div>
+            <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl'>big sale deals</div>
           </div>
         </div>
 
