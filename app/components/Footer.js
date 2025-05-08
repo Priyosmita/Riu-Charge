@@ -17,7 +17,7 @@ const Footer = () => {
 
                         <span>
                         <Link href="" className='inline-block'>
-                            <div className=''>
+                            <div className='hover:text-[#d10f0f] transform duration-300'>
                                 About Us
                             </div>
                         </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
                         
                         <span>
                         <Link href="" className='inline-block'>
-                            <div className=''>
+                            <div className='hover:text-[#d10f0f] transform duration-300'>
                                 Contact Us
                             </div>
                         </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                         
                         <span>
                         <Link href="" className='inline-block'>
-                            <div className=''>
+                            <div className='hover:text-[#d10f0f] transform duration-300'>
                                 Privacy Policy
                             </div>
                         </Link>
@@ -41,11 +41,17 @@ const Footer = () => {
 
                         <span>
                         <Link href="" className='inline-block'>
-                            <div className=''>
+                            <div className='hover:text-[#d10f0f] transform duration-300'>
                             Terms and Conditions
                             </div>
                         </Link>
                         </span>
+
+                        <span className="inline-block">
+  <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+    dg
+  </Link>
+</span>
                     </div>
 
 
