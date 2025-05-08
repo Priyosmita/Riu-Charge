@@ -17,11 +17,9 @@ const Header = () => {
 
                     <span className='hover:text-[#d10f0f] hover:scale-110 transform duration-300 cursor-pointer'>Big Sale Deals</span>
 
-                    <span className='hover:text-[#d10f0f] hover:scale-110 transform duration-300 cursor-pointer'>About</span>
-
                 </div>
 
-                <button className='bg-[#d10f0f] rounded-3xl pt-2 pb-2 pl-6 pr-6 hover:scale-110 transform duration-300 font-bold cursor-pointer'>Login</button>
+                <button className='text-black outline-2 outline-[#d10f0f] rounded-3xl pt-2 pb-2 pl-6 pr-6 hover:scale-110 transform duration-300 hover:bg-[#d10f0f] hover:text-white font-bold cursor-pointer'>Login</button>
             </div>
         </>
     )
