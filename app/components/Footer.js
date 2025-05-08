@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 const Footer = () => {
     return (
         <>
@@ -46,12 +47,6 @@ const Footer = () => {
                                 </div>
                             </Link>
                         </span>
-
-                        <span className="inline-block">
-                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
-                                dg
-                            </Link>
-                        </span>
                     </div>
 
 
@@ -87,8 +82,33 @@ const Footer = () => {
 
 
                     {/* col 3 */}
-                    <div className='text-amber-300'>
-                        social
+                    <div className='flex flex-col space-y-9'>
+                        <span className='text-xl font-semiboldbold'>
+                            OUR SOCIALS
+                        </span>
+                        <span className="inline-block">
+                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+                            Mobile Recharge
+                            </Link>
+                        </span>
+                        
+                        <span className="inline-block">
+                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+                            DTH Recharge
+                            </Link>
+                        </span>
+                        
+                        <span className="inline-block">
+                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+                            Bill Payments
+                            </Link>
+                        </span>
+                        
+                        <span className="inline-block">
+                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+                            Big Sale Deals
+                            </Link>
+                        </span>
                     </div>
                 </div>
             </div>
