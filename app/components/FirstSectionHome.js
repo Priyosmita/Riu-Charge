@@ -10,7 +10,7 @@ const FirstSectionHome = () => {
           className="h-auto w-full"
         />
 
-        <div className="absolute right-0 flex items-center justify-center">
+        <div className="absolute flex items-center justify-center">
           <div className='flex flex-col'>
             {/* first 2 */}
             <div className='flex flex-row'>
