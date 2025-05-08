@@ -1,12 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt,FaFacebook,FaLinkedin,FaInstagram,FaYoutube } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import { FaFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 
 const Footer = () => {
