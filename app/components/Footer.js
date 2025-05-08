@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaPhoneAlt } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -48,12 +54,16 @@ const Footer = () => {
                                 </div>
                             </Link>
                         </span>
+
+                        <span className='flex flex-row space-x-2 hover:text-[#d10f0f] transform duration-300 cursor-default'><FaPhoneAlt className='text-2xl'/><p>123456789</p></span>
+
+                        <span className='flex flex-row space-x-2 hover:text-[#d10f0f] transform duration-300 cursor-default'><IoMail className='text-2xl'/><p>abc@gmail</p></span>
                     </div>
 
 
                     {/*  col 2 */}
                     <div className='flex flex-col space-y-9'>
-                        <span className='text-xl font-semiboldbold'>
+                        <span className='text-xl font-semiboldbold cursor-default'>
                             OUR SERVICES
                         </span>
                         <span className="inline-block">
@@ -84,30 +94,33 @@ const Footer = () => {
 
                     {/* col 3 */}
                     <div className='flex flex-col space-y-9'>
-                        <span className='text-xl font-semiboldbold'>
-                            OUR SOCIALS
-                        </span>
                         <span className="inline-block">
                             <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
-                            Mobile Recharge
+                            <FaFacebook className='text-3xl' />
                             </Link>
                         </span>
                         
                         <span className="inline-block">
                             <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
-                            DTH Recharge
+                            <FaLinkedin className='text-3xl' />
                             </Link>
                         </span>
                         
                         <span className="inline-block">
                             <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
-                            Bill Payments
+                            <FaXTwitter className='text-3xl' />
                             </Link>
                         </span>
                         
                         <span className="inline-block">
                             <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
-                            Big Sale Deals
+                            <FaInstagram className='text-3xl' />
+                            </Link>
+                        </span>
+
+                        <span className="inline-block">
+                            <Link href="/" className="hover:text-[#d10f0f] transition duration-300">
+                            <FaYoutube className='text-3xl' />
                             </Link>
                         </span>
                     </div>
