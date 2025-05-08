@@ -13,20 +13,16 @@ const FirstSectionHome = () => {
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-0"></div>
 
-        <div className="absolute z-10 flex items-center justify-center">
-          <div className='flex flex-col'>
-            {/* first 2 */}
-            <div className='flex flex-row'>
-              <div className='p-4 outline-2 outline-[#d10f0f]'>mobile recharge</div>
-              <div>dth recharge</div>
-            </div>
-            {/* next 2 */}
-            <div className='flex flex-row'>
-              <div>big payments</div>
-              <div>big sale deals</div>
-            </div>
-          </div>
-        </div>
+        <div className="absolute z-10 flex w-full justify-center">
+  <div className='grid grid-cols-2 gap-6'>
+    {/* 4 equal-sized blocks */}
+    <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>mobile recharge</div>
+    <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>dth recharge</div>
+    <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>big payments</div>
+    <div className='p-4 border-2 border-[#d10f0f] text-center w-40'>big sale deals</div>
+  </div>
+</div>
+
       </div>
     </>
   )
