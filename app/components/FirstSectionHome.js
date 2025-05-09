@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMobileAlt } from "react-icons/fa";
+import { FaMobileAlt,FaFileInvoiceDollar } from "react-icons/fa";
 import { FaTv } from "react-icons/fa6";
 
 const FirstSectionHome = () => {
@@ -28,22 +28,22 @@ const FirstSectionHome = () => {
             <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl flex flex-col'>
               <FaTv />
               <p>DTH Recharge</p>
-              <p>Instant mobile recharges with top providers</p>
+              <p>Top-up your favorite DTH services hassle-free</p>
               <button>Recharge Now</button>
             </div>
 
             <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl flex flex-col'>
-              <FaTv />
+              <FaFileInvoiceDollar />
               <p>Bill Payments</p>
-              <p>Instant mobile recharges with top providers</p>
-              <button>Recharge Now</button>
+              <p>Quick and secure utility bill payments</p>
+              <button>Pay Now</button>
             </div>
 
             <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl flex flex-col'>
               <FaTv />
               <p>Big Sale Deals</p>
-              <p>Instant mobile recharges with top providers</p>
-              <button>Recharge Now</button>
+              <p>Grab amazing discounts and cashback offers</p>
+              <button>Shop Now</button>
             </div>
 
           </div>
