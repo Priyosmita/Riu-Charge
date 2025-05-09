@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaMobileAlt,FaTv } from "react-icons/fa";
+import { FaMobileAlt, FaTv, FaTrafficLight } from "react-icons/fa";
+import { BsGooglePlay } from "react-icons/bs";
 
 const ThirdSectionHome = () => {
     return (
@@ -12,12 +13,17 @@ const ThirdSectionHome = () => {
                 className='h-48 flex justify-center'
             >
                 {/* Recharge */}
-                <p className='text-[#ffffff] text-4xl p-9'>Recharge</p>
-                <div className='flex flex-row'>
-                    <FaMobileAlt />
-                    <FaTv />
+                <span className='flex flex-col'>
+                    <p className='text-[#ffffff] text-5xl pt-12 pb-9 flex justify-center'>Recharge</p>
+                    <div className='flex flex-row space-x-60'>
+                        <FaMobileAlt className='text-5xl transform duration-300 hover:scale-125' />
+                        <FaTv className='text-5xl' />
+                        <FaTrafficLight className='text-5xl' />
+                        <BsGooglePlay className='text-5xl' />
+                    </div>
+                </span>
 
-                </div>
+
             </div>
         </>
     )
