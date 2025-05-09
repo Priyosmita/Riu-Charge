@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import FirstSectionHome from './components/FirstSectionHome'
 import SecondSectionHome from './components/SecondSectionHome'
+import ThirdSectionHome from './components/ThirdSectionHome'
 
 
 const page = () => {
@@ -13,6 +14,8 @@ const page = () => {
       <FirstSectionHome />
 
       <SecondSectionHome />
+
+      <ThirdSectionHome />
 
       <Footer/>
     </>
