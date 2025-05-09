@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMobileAlt,FaFileInvoiceDollar,FaTags } from "react-icons/fa";
+import { FaMobileAlt, FaFileInvoiceDollar, FaTags } from "react-icons/fa";
 import { FaTv } from "react-icons/fa6";
 
 const FirstSectionHome = () => {
@@ -16,35 +16,37 @@ const FirstSectionHome = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-0"></div>
 
         <div className="absolute z-10 flex w-full justify-end p-44">
-          <div className='grid grid-cols-2 gap-6'>
+          <div className='grid grid-cols-2 gap-10'>
             {/* 4 equal-sized blocks */}
-            <div className='p-6 border-2 border-[#d1cfcf] text-center w-52 h-56 rounded-2xl flex flex-col items-center bg-[#ffffff3d]'>
-              <FaMobileAlt className='text-[#d10f0f] text-4xl' />
-              <p>Mobile Recharge</p>
-              <p>Instant mobile recharges with top providers</p>
-              <button>Recharge Now</button>
+
+            <div className='p-6 border-2 border-[#d1cfcf] text-center w-64 h-64 rounded-2xl flex flex-col items-center space-y-3 bg-[#ffffff3d] hover:scale-105 transform duration-300 hover:shadow-2xl hover:border-[#b81818]'>
+              <FaMobileAlt className='text-[#b81818] text-5xl' />
+              <p className='font-semibold text-xl text-[#b81818]'>Mobile Recharge</p>
+              <p className='text-[#424141]'>Instant mobile recharges with top providers</p>
+              <button className='text-white outline-2 outline-[#b81818] rounded-3xl pt-2 pb-2 pr-3 pl-3 hover:scale-110 transform duration-300 hover:bg-[#b81818] hover:text-white cursor-pointer'>Recharge Now</button>
             </div>
 
-            <div className='p-4 border-2 border-[#d10f0f] text-center w-60 h-64 rounded-2xl flex flex-col'>
-              <FaTv />
-              <p>DTH Recharge</p>
-              <p>Top-up your favorite DTH services hassle-free</p>
-              <button>Recharge Now</button>
+            <div className='p-6 border-2 border-[#d1cfcf] text-center w-64 h-64 rounded-2xl flex flex-col items-center space-y-3 bg-[#ffffff3d] hover:scale-105 transform duration-300 hover:shadow-2xl hover:border-[#b81818]'>
+              <FaTv className='text-[#b81818] text-5xl' />
+              <p className='font-semibold text-xl text-[#b81818]'>DTH Recharge</p>
+              <p className='text-[#424141]'>Top-up your favorite DTH services hassle-free</p>
+              <button className='text-white outline-2 outline-[#b81818] rounded-3xl pt-2 pb-2 pr-3 pl-3 hover:scale-110 transform duration-300 hover:bg-[#b81818] hover:text-white cursor-pointer'>Recharge Now</button>
             </div>
 
-            <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl flex flex-col'>
-              <FaFileInvoiceDollar />
-              <p>Bill Payments</p>
-              <p>Quick and secure utility bill payments</p>
-              <button>Pay Now</button>
+            <div className='p-6 border-2 border-[#d1cfcf] text-center w-64 h-64 rounded-2xl flex flex-col items-center space-y-3 bg-[#ffffff3d] hover:scale-105 transform duration-300 hover:shadow-2xl hover:border-[#b81818]'>
+              <FaFileInvoiceDollar className='text-[#b81818] text-5xl' />
+              <p className='font-semibold text-xl text-[#b81818]'>Bill Payments</p>
+              <p className='text-[#424141]'>Quick and secure utility bill payments</p>
+              <button className='text-white outline-2 outline-[#b81818] rounded-3xl pt-2 pb-2 pr-3 pl-3 hover:scale-110 transform duration-300 hover:bg-[#b81818] hover:text-white cursor-pointer'>Pay Now</button>
             </div>
 
-            <div className='p-4 border-2 border-[#d10f0f] text-center w-40 rounded-2xl flex flex-col'>
-              <FaTags />
-              <p>Big Sale Deals</p>
-              <p>Grab amazing discounts and cashback offers</p>
-              <button>Shop Now</button>
+            <div className='p-6 border-2 border-[#d1cfcf] text-center w-64 h-64 rounded-2xl flex flex-col items-center space-y-3 bg-[#ffffff3d] hover:scale-105 transform duration-300 hover:shadow-2xl hover:border-[#b81818]'>
+              <FaTags className='text-[#b81818] text-5xl' />
+              <p className='font-semibold text-xl text-[#b81818]'>Big Sale Deals</p>
+              <p className='text-[#424141]'>Grab amazing discounts and cashback offers</p>
+              <button className='text-white outline-2 outline-[#b81818] rounded-3xl pt-2 pb-2 pr-3 pl-3 hover:scale-110 transform duration-300 hover:bg-[#b81818] hover:text-white cursor-pointer'>Shop Now</button>
             </div>
+
 
           </div>
         </div>
