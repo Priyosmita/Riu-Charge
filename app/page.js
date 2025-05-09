@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import FirstSectionHome from './components/FirstSectionHome'
-import SecongSectionHome from './components/SecongSectionHome'
+import SecondSectionHome from './components/SecondSectionHome'
 
 
 const page = () => {
@@ -12,7 +12,7 @@ const page = () => {
 
       <FirstSectionHome />
 
-      <SecongSectionHome />
+      <SecondSectionHome />
 
       <Footer/>
     </>

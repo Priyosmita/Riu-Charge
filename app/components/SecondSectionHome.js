@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SecongSectionHome = () => {
+const SecondSectionHome = () => {
   return (
     <>
     <div className='flex flex-row justify-center items-center bg-[#EBF2FB] h-24 space-x-16'>
@@ -51,4 +51,4 @@ const SecongSectionHome = () => {
   )
 }
 
-export default SecongSectionHome
+export default SecondSectionHome
