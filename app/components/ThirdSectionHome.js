@@ -1,15 +1,26 @@
 import React from 'react'
+import { FaMobileAlt,FaTv } from "react-icons/fa";
 
 const ThirdSectionHome = () => {
-  return (
-    <>
-    <div className='bg-[#EBF2FB] h-48'>
-        <div className='bg-[#ffffff] w-7xl h-36 rounded-2xl mx-auto p-10 flex justify-center'>
+    return (
+        <>
+            <div
+                style={{
+                    background: '#B81818',
+                    background: 'linear-gradient(106deg, rgba(184, 24, 24, 1) 0%, rgba(212, 40, 40, 1) 52%, rgba(252, 159, 159, 1) 100%)',
+                }}
+                className='h-48 flex justify-center'
+            >
+                {/* Recharge */}
+                <p className='text-[#ffffff] text-4xl p-9'>Recharge</p>
+                <div className='flex flex-row'>
+                    <FaMobileAlt />
+                    <FaTv />
 
-        </div>
-    </div>
-    </>
-  )
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default ThirdSectionHome
