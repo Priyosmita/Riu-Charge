@@ -15,8 +15,8 @@ const FirstSectionHome = () => {
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-0"></div>
 
-        <div className="absolute z-10 flex w-full justify-end p-44">
-          <div className='grid grid-cols-2 gap-10'>
+        <div className="absolute z-10 flex w-full justify-end pt-28 pr-52">
+          <div className='grid grid-cols-2 gap-16'>
             {/* 4 equal-sized blocks */}
 
             <div className='p-6 border-2 border-[#d1cfcf] text-center w-64 h-64 rounded-2xl flex flex-col items-center space-y-3 bg-[#ffffff3d] hover:scale-105 transform duration-300 hover:shadow-2xl hover:border-[#b81818]'>
