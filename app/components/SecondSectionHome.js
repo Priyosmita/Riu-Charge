@@ -49,6 +49,7 @@ const SecondSectionHome = () => {
           />
 
         </div>
+
       </div>
 
     </>
